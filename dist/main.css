@@ -1,0 +1,70 @@
+body {
+  font-family: "Titillium Web", sans-serif; }
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.8rem;
+  width: 100%; }
+  .table tr.has-error td {
+    background-color: #b51007;
+    color: #fff; }
+  .table tr:nth-child(even) {
+    background-color: #eaeaea; }
+  .table thead th {
+    background-color: #274954;
+    color: #fff;
+    padding: 10px;
+    text-align: left; }
+  .table tbody td {
+    color: #333;
+    padding: 12px 6px;
+    vertical-align: top;
+    border-bottom: 1px solid #fff; }
+
+.error-label {
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.8rem; }
+
+.filter {
+  font-size: 1rem;
+  padding: 10px 0px; }
+  .filter__select {
+    font-size: inherit; }
+  .filter__total {
+    padding: 20px; }
+
+a {
+  color: #62afc7;
+  text-decoration: underline;
+  cursor: pointer; }
+  a:hover {
+    color: #274954; }
+
+.main {
+  margin: auto; }
+  @media screen and (min-width: 768px) {
+    .main {
+      width: 80%; } }
+
+.dropzone {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-width: 2px;
+  border-color: #666666;
+  border-style: dashed;
+  border-radius: 5px; }
+  .dropzone--active {
+    border-style: solid;
+    border-color: green;
+    background-color: #eaeaea; }
+  .dropzone--reject {
+    border-style: solid;
+    border-color: #b51007;
+    background-color: #eaeaea; }
+
+
+/*# sourceMappingURL=main.css.map*/
